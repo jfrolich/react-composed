@@ -2,10 +2,10 @@
   "name": "react-composed",
   "version": "0.0.1",
   "description": "Compose react render props",
-  "main": "index.js",
-  "jsnext:main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "homepage": "https://github.com/jfrolich/react-composed#readme",
   "peerDependencies": {
     "react": "^16.3.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
