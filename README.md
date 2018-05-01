@@ -17,7 +17,7 @@ const Test2 = ({ children }) => children("Test2");
       {test2 =>
         <p>test1: {test1}, test2: {test2}</p>
       }
-    </Test>
+    </Test2>
   }
 </Test1>
 
