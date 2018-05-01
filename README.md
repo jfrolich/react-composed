@@ -32,8 +32,12 @@ import Composed from 'react-composed'
 With `react-composed` you need less nesting. With more API choosing for render-props, instead of HOCs, you'll have more and more components passing information down using render props. For instance react apollo:
 
 ```jsx
-<Composed query1={<Query query={query1}} query2={<Query query={query2}} mutation={<Mutation mutation={mutation}}>
-  {({query1, query2, mutation}) => ...}
+<Composed 
+  query1={<Query query={query1}} 
+  query2={<Query query={query2}} 
+  mutation={<Mutation mutation={mutation}}
+>
+  {({query1, query2, mutation}) => <Component {...} />}
 </Composed>
 ```
 
