@@ -1,0 +1,23 @@
+{
+  "name": "react-composed",
+  "version": "0.0.1",
+  "description": "Compose react render props",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfrolich/react-composed.git"
+  },
+  "keywords": ["react", "composed"],
+  "author": "Jaap Frolich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfrolich/react-composed/issues"
+  },
+  "homepage": "https://github.com/jfrolich/react-composed#readme",
+  "peerDependencies": {
+    "react": "^16.3.2"
+  }
+}
