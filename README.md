@@ -33,9 +33,9 @@ With `react-composed` you need less nesting. With more API choosing for render-p
 
 ```jsx
 <Composed 
-  query1={<Query query={query1}} 
-  query2={<Query query={query2}} 
-  mutation={<Mutation mutation={mutation}}
+  query1={<Query query={query1} />} 
+  query2={<Query query={query2} />}
+  mutation={<Mutation mutation={mutation} />}
 >
   {({query1, query2, mutation}) => <Component {...} />}
 </Composed>
